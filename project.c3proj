@@ -97,7 +97,8 @@
 			"Sprite4",
 			"Sprite5",
 			"Audio",
-			"Sprite6"
+			"Sprite6",
+			"TiledBackground4"
 		],
 		"subfolders": []
 	},
