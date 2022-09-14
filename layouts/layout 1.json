@@ -7,6 +7,35 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "AudioTreeSprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 44,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1226.5,
+						"y": 156.5,
+						"width": 862,
+						"height": 391,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "TiledBackground3",
 					"properties": {
 						"initially-visible": true,
@@ -250,7 +279,7 @@
 				{
 					"type": "Text",
 					"properties": {
-						"text": "Shrek! You must free the world from Mrs. Gingerbread! Your mortal enemy! You must go and defeat him before he one taps the whole world!!",
+						"text": "Shrek! You must free the world from Lord Farquaad! Your mortal enemy! You must go and defeat him before he one taps the whole world!!",
 						"enable-bbcode": true,
 						"font": "OCR A",
 						"size": 12,
@@ -275,8 +304,8 @@
 					"world": {
 						"x": 1056,
 						"y": 64,
-						"width": 214,
-						"height": 104,
+						"width": 237,
+						"height": 133,
 						"originX": 0,
 						"originY": 0,
 						"color": [

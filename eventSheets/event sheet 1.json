@@ -171,6 +171,33 @@
 				}
 			],
 			"sid": 296320909014863
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 925278605411018,
+					"parameters": {
+						"object": "AudioTreeSprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 720656575466064,
+					"parameters": {
+						"audio-file": "ttsMP3.com_VoiceText_2022-9-14_14_34_5",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 653388716723870
 		}
 	],
 	"sid": 564085460482367
