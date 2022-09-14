@@ -1,0 +1,177 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 577816269050036
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 840763411086626,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 366181551730216,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 533297063011567
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 381565011723868,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 953812019472515,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 493251064134261
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 322086552654909,
+					"parameters": {
+						"object": "Sprite2"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 776153986687372
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 966197759327301,
+					"parameters": {
+						"key": 40
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 859936591690585,
+					"parameters": {
+						"animation": "\"Animation 2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 133316788129362
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 221657821979419,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 775580012450818,
+					"parameters": {
+						"animation": "\"Animation 1\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 420961665050055
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Player",
+					"sid": 918501316283668,
+					"parameters": {
+						"animation": "\"Animation 2\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 380379102942320,
+					"parameters": {
+						"animation": "\"Animation 3\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 286781453668667
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 692701955307477,
+					"parameters": {
+						"object": "Sprite4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 680700434994565,
+					"parameters": {
+						"audio-file": "Shrek Yelling Donkey (1)",
+						"loop": "not-looping",
+						"volume": "20",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 296320909014863
+		}
+	],
+	"sid": 564085460482367
+}
