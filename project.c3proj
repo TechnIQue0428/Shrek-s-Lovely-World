@@ -97,7 +97,9 @@
 			"Sprite4",
 			"Sprite5",
 			"Audio",
-			"Sprite6"
+			"Sprite6",
+			"TiledBackground4",
+			"AudioTreeSprite"
 		],
 		"subfolders": []
 	},
@@ -130,6 +132,14 @@
 					"name": "Shrek Yelling Donkey (1).webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 717375420758506,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "ttsMP3.com_VoiceText_2022-9-14_14_34_5.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 824660245758198,
 					"file-info": {
 						"purpose": "none"
 					}
